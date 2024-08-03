@@ -20,6 +20,7 @@
       return document.querySelector(el)
     }
   }
+  
 // Moving slider Start
 document.addEventListener("DOMContentLoaded", function() {
   const text = "Let us help you develop and integrate a website that stands out and drives growth for your business.";
