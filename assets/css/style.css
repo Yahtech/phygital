@@ -3,6 +3,44 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444;
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.whatsapp-button img {
+  width: 60px;
+  height: 60px;
+}
+.social-media-icons {
+  display: flex; /* Align icons in a row */
+  justify-content: center; /* Center icons horizontally */
+  gap: 5px; /* Space between icons */
+  padding: 10px; /* Padding around the icons */
+}
+
+.social-media-icon {
+  width: 40px; /* Default width */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.social-media-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+@media (max-width: 768px) {
+  .social-media-icon {
+      width: 35px; /* Smaller width on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .social-media-icon {
+      width: 30px; /* Smaller width on mobile devices */
+  }
+}
 
 #hero {
   position: relative;
