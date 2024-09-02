@@ -55,12 +55,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 'auto',
+  slidesPerView: '',
   spaceBetween: 30,
   loop: true,
   autoplay: {
     delay: 1,
-    disableOnInteraction: false,
+    disableOnInteraction: true,
   },
   speed: 6000,
   breakpoints: {
@@ -219,7 +219,7 @@ var swiper = new Swiper('.swiper-container', {
     loop: true,
     autoplay: {
       delay: 5000,
-      disableOnInteraction: false
+      disableOnInteraction: true
     },
     pagination: {
       el: '.swiper-pagination',
